@@ -8,5 +8,5 @@ proxies:
     tls: true
     servername: www.cloudflare.com
     reality-opts:
-      public-key: fiI3JU65h9CynH3UKh8pIoqxIl6HS_6ONxJT2NrdzC0s
+      public-key: fiL3J65h9CynH3UKh8pIoqxIl6HS_6ONxJI2NrdzC0s
       short-id: 6ba85179e30d4fc2

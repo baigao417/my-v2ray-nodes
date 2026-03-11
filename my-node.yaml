@@ -7,7 +7,7 @@ proxies:
   - name: DO-Reality-SG
     type: vless
     server: 159.65.143.48
-    port: 8443
+    port: 2053
     uuid: d8a68392-73bd-48f7-9e97-cbc73646eba9
     network: tcp
     udp: true

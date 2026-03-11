@@ -3,7 +3,7 @@ proxies:
     type: vless
     server: 159.65.143.48
     port: 8443
-    uuid: d8a68392-73bd-48f7-9e97-cbc73646beba
+    uuid: d8a68392-73bd-48f7-9e97-cbc73646eba9
     network: tcp
     tls: true
     servername: www.cloudflare.com

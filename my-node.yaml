@@ -1,0 +1,12 @@
+proxies:
+  - name: Singapore-Reality
+    type: vless
+    server: 159.65.143.48
+    port: 8443
+    uuid: d8a68392-73bd-48f7-9e97-cbc73646beba
+    network: tcp
+    tls: true
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: fiI3JU65h9CynH3UKh8pIoqxIl6HS_6ONxJT2NrdzC0s
+      short-id: 6ba85179e30d4fc2

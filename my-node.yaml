@@ -1,12 +1,29 @@
+mixed-port: 7897
+allow-lan: true
+mode: rule
+log-level: info
+
 proxies:
-  - name: Singapore-Reality
+  - name: DO-Reality-SG
     type: vless
     server: 159.65.143.48
     port: 8443
     uuid: d8a68392-73bd-48f7-9e97-cbc73646eba9
     network: tcp
+    udp: true
     tls: true
+    client-fingerprint: chrome
     servername: www.cloudflare.com
     reality-opts:
       public-key: fiL3J65h9CynH3UKh8pIoqxIl6HS_6ONxJI2NrdzC0s
       short-id: 6ba85179e30d4fc2
+
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies:
+      - DO-Reality-SG
+      - DIRECT
+
+rules:
+  - MATCH,PROXY
